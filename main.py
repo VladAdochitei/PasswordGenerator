@@ -1,4 +1,4 @@
-#Passwork - basic password generator#
+#PasswordGen - basic password generator#
 import random
 
 print('Welcome to Passwork')
@@ -19,13 +19,14 @@ print('\nCreated passwords:')
 #The output file is set to ~append~ meaning that the file will not be overwritten
 file = open("passwords.txt","a")
 for pwd in range(passwordNumber):
+    #Generates an empty string
     passwords = ''
     for i in range(passwordLength):
+        #While i < the length selected by the user, builds the random password by adding a random element from the charSet at a time
         passwords += random.choice(charSet)
     print(passwords)
     file.write(passwords + '\n')
 file.write('\n')
 file.close()
-print('You can review the passwords in the "passwords.txt" file')
-
+print('\n' + 'You can review the passwords in the "passwords.txt" file')
 
