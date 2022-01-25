@@ -26,6 +26,6 @@ for pwd in range(passwordNumber):
     file.write(passwords + '\n')
 file.write('\n')
 file.close()
-
+print('You can review the passwords in the "passwords.txt" file')
 
 
