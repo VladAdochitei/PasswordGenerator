@@ -3,7 +3,7 @@ import random
 
 print('Welcome to Passwork')
 
-charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-=_+[]{}'
+charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-=_+[]'
 
 
 #This input will represent the number of passwords that are to be generated
